@@ -1,6 +1,6 @@
 # Food Junction Bikram - Premium PWA Showcase
 
-![Food Junction Banner](/public/Hero_bg.webp)
+![Food Junction Banner](/public/pwa-desktop.png)
 
 ## 🍱 Overview
 This repository contains a **Premium Restaurant PWA (Progressive Web App)** developed for **Food Junction Bikram**. This version is a **high-performance showcase port** designed to demonstrate technical expertise in modern web development, UI/UX design, and offline-capable applications.
