@@ -1,0 +1,60 @@
+/* Google Fonts are now loaded efficiently in index.html for better performance */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem; /* Offsets scroll position for fixed header */
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    @apply font-sans antialiased text-gray-800 bg-white overflow-x-hidden;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-serif text-brand-dark leading-tight;
+  }
+
+  p {
+    @apply leading-relaxed;
+  }
+}
+
+.section-padding {
+  @apply py-16 px-4 md:px-8 max-w-7xl mx-auto;
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .mask-fade-right {
+    mask-image: linear-gradient(to right, black 85%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to right, black 85%, transparent 100%);
+  }
+
+  /* Performance-optimized Hero Background Classes */
+  .hero-bg-container {
+    background-image: url('/Hero_bg.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #0c1117;
+    will-change: transform;
+  }
+
+  @media (max-width: 767px) {
+    .hero-bg-container {
+      background-attachment: scroll; /* Fixed backgrounds are heavy on mobile */
+    }
+  }
+}

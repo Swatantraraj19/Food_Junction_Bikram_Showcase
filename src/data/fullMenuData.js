@@ -1,0 +1,162 @@
+export const fullMenuData = [
+    {
+        category: "Starters (Veg)",
+        items: [
+            { id: "sv1-d", name: "Veg Manchurian Dry", prices: { half: "100", full: "170" }, type: "veg", image: "/Veg_Manchurian.jpg" },
+            { id: "sv1-g", name: "Veg Manchurian Gravy", prices: { half: "100", full: "170" }, type: "veg", image: "/Veg_Manchurian.jpg" },
+            { id: "sv2-d", name: "Paneer Chilli Dry", prices: { half: "130", full: "210" }, type: "veg", image: "/Paneer_Chilli.jpg" },
+            { id: "sv2-g", name: "Paneer Chilli Gravy", prices: { half: "130", full: "210" }, type: "veg", image: "/Paneer_Chilli.jpg" },
+            { id: "sv3", name: "Paneer 65", prices: { full: "240" }, type: "veg" },
+            { id: "sv4", name: "Paneer Tikka", prices: { full: "230" }, type: "veg" },
+            { id: "sv5-d", name: "Mushroom Chilli Dry", prices: { half: "130", full: "230" }, type: "veg" },
+            { id: "sv5-g", name: "Mushroom Chilli Gravy", prices: { half: "130", full: "230" }, type: "veg" },
+            { id: "sv6", name: "Honey Chilli Potato", prices: { full: "170" }, type: "veg" },
+            { id: "sv7", name: "Baby Corn Chilli", prices: { full: "230" }, type: "veg", image: "/Baby_Corn.jpg" },
+            { id: "sv8", name: "Baby Corn Crispy", prices: { full: "240" }, type: "veg" },
+            { id: "sv9", name: "Paneer Pakora", prices: { full: "190" }, type: "veg" },
+            { id: "sv10", name: "Veg Pakora", prices: { full: "150" }, type: "veg" },
+            { id: "sv11", name: "French Fries", prices: { full: "130" }, type: "veg" },
+            { id: "sv12-d", name: "Soya Chilli Dry", prices: { half: "90", full: "160" }, type: "veg" },
+            { id: "sv12-g", name: "Soya Chilli Gravy", prices: { half: "90", full: "160" }, type: "veg" },
+            { id: "snv9", name: "Veg Roll", prices: { full: "50" }, type: "veg" },
+            { id: "snv10", name: "Paneer Roll", prices: { full: "70" }, type: "veg" }
+        ]
+    },
+    {
+        category: "Starters (Non-Veg)",
+        items: [
+            { id: "snv1-d", name: "Chicken Chilli Dry (Bone)", prices: { half: "130", full: "220" }, type: "non-veg" },
+            { id: "snv1-g", name: "Chicken Chilli Gravy (Bone)", prices: { half: "130", full: "220" }, type: "non-veg" },
+            { id: "snv2-d", name: "Chicken Chilli Dry (Boneless)", prices: { half: "130", full: "230" }, type: "non-veg" },
+            { id: "snv2-g", name: "Chicken Chilli Gravy (Boneless)", prices: { half: "130", full: "230" }, type: "non-veg" },
+            { id: "snv3", name: "Chicken 65", prices: { full: "240" }, type: "non-veg" },
+            { id: "snv4", name: "Chicken Lollipop", prices: { full: "260" }, type: "non-veg", image: "/Chicken_Lolipop.jpg" },
+            { id: "snv5", name: "Chicken Pakora", prices: { full: "190" }, type: "non-veg" },
+            { id: "snv6", name: "Chicken Tikka", prices: { full: "220" }, type: "non-veg" },
+            { id: "snv7", name: "Egg Omelette", prices: { full: "40" }, type: "non-veg" },
+            { id: "snv8", name: "Egg Roll Special", prices: { full: "60" }, type: "non-veg" },
+            { id: "snv11", name: "Chicken Roll", prices: { full: "90" }, type: "non-veg" },
+            { id: "snv12", name: "Double Egg Chicken Roll", prices: { full: "100" }, type: "non-veg" },
+            { id: "snv13", name: "Fish Fry (4 P)", prices: { full: "160" }, type: "non-veg" }
+        ]
+    },
+    {
+        category: "Main Course (Veg)",
+        items: [
+            { id: "mcv1", name: "Mix Veg", prices: { full: "230" }, type: "veg" },
+            { id: "mcv2", name: "Matar Paneer", prices: { full: "230" }, type: "veg" },
+            { id: "mcv3", name: "Palak Paneer", prices: { full: "230" }, type: "veg" },
+            { id: "mcv4", name: "Paneer Masala", prices: { half: "130", full: "230" }, type: "veg", image: "/Paneer_Kadhai.jpg" },
+            { id: "mcv5", name: "Paneer Butter Masala", prices: { full: "240" }, type: "veg", image: "/Paneer_B_Masala.jpg" },
+            { id: "mcv6", name: "Paneer Tikka Masala", prices: { full: "250" }, type: "veg" },
+            { id: "mcv7", name: "Paneer Handi", prices: { full: "240" }, type: "veg" },
+            { id: "mcv8", name: "Paneer Kadhai", prices: { half: "150", full: "240" }, type: "veg", image: "/Paneer_Kadhai.jpg" },
+            { id: "mcv9", name: "Paneer Do Pyaza", prices: { half: "150", full: "240" }, type: "veg" },
+            { id: "mcv10", name: "Shahi Paneer", prices: { full: "250" }, type: "veg" },
+            { id: "mcv11", name: "Paneer Punjabi", prices: { full: "250" }, type: "veg" },
+            { id: "mcv12", name: "Paneer Dehati", prices: { full: "240" }, type: "veg" },
+            { id: "mcv13", name: "Paneer Tikka Butter Masala", prices: { full: "260" }, type: "veg" },
+            { id: "mcv14", name: "Mushroom Masala", prices: { full: "230" }, type: "veg" },
+            { id: "mcv15", name: "Mushroom Butter Masala", prices: { full: "240" }, type: "veg" },
+            { id: "mcv16", name: "Mushroom Kadhai", prices: { half: "150", full: "240" }, type: "veg", image: "/Mashroom_Kadhai.jpg" },
+            { id: "mcv17", name: "Mushroom Do Pyaza", prices: { full: "230" }, type: "veg" },
+            { id: "mcv18", name: "Mushroom Handi", prices: { full: "230" }, type: "veg" },
+            { id: "mcv19", name: "Mushroom Dehati", prices: { full: "260" }, type: "veg" },
+            { id: "mcv20", name: "Matar Mushroom", prices: { full: "240" }, type: "veg" }
+        ]
+    },
+    {
+        category: "Main Course (Non-Veg)",
+        items: [
+            { id: "mcnv1", name: "Chicken (Special) 1kg", prices: { full: "600" }, type: "non-veg" },
+            { id: "mcnv2", name: "Chicken Curry (4 P)", prices: { full: "240" }, type: "non-veg" },
+            { id: "mcnv3", name: "Chicken Masala (4 P)", prices: { full: "250" }, type: "non-veg", image: "/Chicken_masala.webp" },
+            { id: "mcnv4", name: "Chicken Do Pyaza (4 P)", prices: { full: "250" }, type: "non-veg" },
+            { id: "mcnv5", name: "Chicken Kadhai", prices: { half: "140", full: "250" }, type: "non-veg" },
+            { id: "mcnv6", name: "Chicken Handi (4 P)", prices: { full: "250" }, type: "non-veg" },
+            { id: "mcnv7", name: "Chicken Butter Masala (4 P)", prices: { full: "280" }, type: "non-veg" },
+            { id: "mcnv8", name: "Chicken Tikka Masala", prices: { full: "280" }, type: "non-veg" },
+            { id: "mcnv9", name: "Chicken Dehati", prices: { half: "330", full: "540" }, type: "non-veg" },
+            { id: "mcnv10", name: "Chicken Boneless", prices: { full: "260" }, type: "non-veg" },
+            { id: "mcnv11", name: "Egg Curry (2 P)", prices: { full: "100" }, type: "non-veg" },
+            { id: "mcnv12", name: "Egg Curry (4 P)", prices: { full: "130" }, type: "non-veg" },
+            { id: "mcnv13", name: "Egg Kadhai", prices: { full: "130" }, type: "non-veg" },
+            { id: "fs1", name: "Fish Curry (Rohu)", prices: { full: "170" }, type: "non-veg" },
+            { id: "fs2", name: "Fish Masala", prices: { full: "180" }, type: "non-veg" },
+            { id: "fs3", name: "Fish Butter Masala", prices: { full: "200" }, type: "non-veg" }
+        ]
+    },
+    {
+        category: "Breads and Rice",
+        items: [
+            { id: "bd1", name: "Tandoori Roti", prices: { full: "13" }, type: "veg" },
+            { id: "bd2", name: "Tandoori Butter Roti", prices: { full: "16" }, type: "veg" },
+            { id: "bd3", name: "Plain Naan", prices: { full: "35" }, type: "veg" },
+            { id: "bd4", name: "Butter Naan", prices: { full: "40" }, type: "veg" },
+            { id: "bd5", name: "Lachha Paratha", prices: { full: "40" }, type: "veg" },
+            { id: "bd6", name: "Tawa Roti", prices: { full: "8" }, type: "veg" },
+            { id: "bd7", name: "Tawa Butter Roti", prices: { full: "10" }, type: "veg" },
+            { id: "bd8", name: "Paneer Stuffed Naan", prices: { full: "55" }, type: "veg" },
+            { id: "bd9", name: "Veg Stuffed Naan", prices: { full: "40" }, type: "veg" },
+            { id: "bd10", name: "Garlic Naan", prices: { full: "55" }, type: "veg" },
+            { id: "bd11", name: "Paneer Paratha", prices: { full: "60" }, type: "veg" },
+            { id: "bd12", name: "Aloo Paratha", prices: { full: "50" }, type: "veg" },
+            { id: "bd13", name: "Sattu Paratha", prices: { full: "50" }, type: "veg" },
+            { id: "br6", name: "Plain Steamed Rice", prices: { half: "60", full: "100" }, type: "veg" },
+            { id: "br7", name: "Jeera Rice", prices: { half: "70", full: "120" }, type: "veg" },
+            { id: "br8", name: "Veg Fried Rice", prices: { half: "90", full: "150" }, type: "veg" },
+            { id: "br9", name: "Veg Pulao", prices: { half: "100", full: "150" }, type: "veg" },
+            { id: "br10", name: "Paneer Pulao", prices: { half: "130", full: "180" }, type: "veg" },
+            { id: "br11", name: "Egg Fried Rice", prices: { half: "100", full: "170" }, type: "non-veg" },
+            { id: "br12", name: "Chicken Fried Rice", prices: { half: "110", full: "190" }, type: "non-veg" }
+        ]
+    },
+    {
+        category: "Biryani and Chinese Food",
+        items: [
+            { id: "br1", name: "Hyderabadi Veg Biryani", prices: { full: "170" }, type: "veg", image: "/Veg_Biryani.jpg" },
+            { id: "br3", name: "Paneer Biryani", prices: { full: "190" }, type: "veg" },
+            { id: "br2", name: "Egg Biryani", prices: { full: "180" }, type: "non-veg" },
+            { id: "br4", name: "Chicken Biryani", prices: { full: "220" }, type: "non-veg", image: "/Chicken_Biryani.jpg" },
+            { id: "br5", name: "Chicken Egg Biryani", prices: { full: "230" }, type: "non-veg" },
+            { id: "ch1", name: "Veg Chowmein", prices: { half: "60", full: "100" }, type: "veg", image: "/Veg_Chowmin.jpg" },
+            { id: "ch2", name: "Veg Mix Chowmein", prices: { full: "130" }, type: "veg" },
+            { id: "ch3", name: "Paneer Chowmein", prices: { full: "150" }, type: "veg" },
+            { id: "ch4", name: "Egg Chowmein", prices: { full: "140" }, type: "non-veg" },
+            { id: "ch5", name: "Chicken Chowmein", prices: { full: "170" }, type: "non-veg" },
+            { id: "ch6", name: "Chicken Mix Chowmein", prices: { full: "180" }, type: "non-veg" }
+        ]
+    },
+    {
+        category: "More Dishes",
+        items: [
+            { id: "kt1", name: "Veg Seekh Kabab", prices: { full: "190" }, type: "veg" },
+            { id: "kt2", name: "Chicken Seekh Kabab", prices: { full: "240" }, type: "non-veg" },
+            { id: "kt3", name: "Chicken Leg Kabab", prices: { full: "260" }, type: "non-veg" },
+            { id: "kt4", name: "Chicken Boti Kabab", prices: { full: "230" }, type: "non-veg" },
+            { id: "sd1", name: "Chana Dal Tadka", prices: { half: "80", full: "120" }, type: "veg" },
+            { id: "sd2", name: "Dal Fry", prices: { half: "60", full: "100" }, type: "veg" },
+            { id: "sd3", name: "Dal Tadka Special", prices: { half: "90", full: "150" }, type: "veg", image: "/Dal Tadka.jpg" },
+            { id: "sd4", name: "Veg Hot & Sour Soup", prices: { full: "70" }, type: "veg" },
+            { id: "sd5", name: "Veg Manchow Soup", prices: { full: "80" }, type: "veg" },
+            { id: "sd6", name: "Tomato Soup", prices: { full: "60" }, type: "veg" },
+            { id: "sd7", name: "Chicken Manchow Soup", prices: { full: "120" }, type: "non-veg" },
+            { id: "sdb1", name: "Green Salad", prices: { full: "50" }, type: "veg" },
+            { id: "sdb2", name: "Onion Salad", prices: { full: "25" }, type: "veg" },
+            { id: "sdb3", name: "Mix Salad", prices: { full: "60" }, type: "veg" },
+            { id: "sdb4", name: "Cucumber Salad", prices: { full: "45" }, type: "veg" },
+            { id: "sdb5", name: "Plain Papad", prices: { full: "15" }, type: "veg" },
+            { id: "sdb6", name: "Roasted Papad", prices: { full: "20" }, type: "veg" },
+            { id: "sdb7", name: "Fried Papad", prices: { full: "20" }, type: "veg" },
+            { id: "sdb8", name: "Masala Papad", prices: { full: "30" }, type: "veg" },
+            { id: "sdb9", name: "Hot Gulab Jamun (2 P)", prices: { full: "50" }, type: "veg" },
+            { id: "sdb10", name: "Rasgulla (2 P)", prices: { full: "40" }, type: "veg" },
+            { id: "sdb12", name: "Mineral Water", prices: { full: "20" }, type: "veg" },
+            { id: "sdb13", name: "Cold Drinks", prices: { full: "45" }, type: "veg" },
+            { id: "sdb14", name: "Cold Coffee", prices: { full: "80" }, type: "veg" },
+            { id: "sdb16", name: "Red Bull", prices: { full: "125" }, type: "veg" },
+            { id: "sdb17", name: "Chai", prices: { full: "20" }, type: "veg" },
+            { id: "sdb18", name: "Hot Coffee", prices: { full: "30" }, type: "veg" }
+        ]
+    }
+];
