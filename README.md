@@ -29,7 +29,7 @@ The original application is a real-world restaurant ordering system. For privacy
 ---
 
 ## 🛠️ Tech Stack
-- **Frontend**: React 19, Vite 7
+- **Frontend**: React, Vite 7
 - **Styling**: Tailwind CSS
 - **Animations**: Framer Motion
 - **Icons**: Lucide React
@@ -74,6 +74,8 @@ In this public repository version:
 
 ## 👨‍💻 Developer Notes
 This project was built to show how modern web technologies can provide a fast, offline-first experience for local businesses. It focuses on **clean code architecture**, **performance scores**, and **immersive user delight**.
+
+**Live Link:** https://foodjunctionbikram.in
 
 ---
 *Created with ❤️ by Swatantraraj Singh*
