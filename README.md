@@ -9,7 +9,7 @@ The original application is a real-world restaurant ordering system. For privacy
 
 ---
 
-## 🚀 Key Features
+## 🚀  Key Features
 
 ### 💎 Premium UI/UX
 - **Cinematic Experience**: Implemented using `Framer Motion` for smooth, staggering entrance animations and gesture-based interactions.
