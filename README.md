@@ -78,4 +78,4 @@ This project was built to show how modern web technologies can provide a fast, o
 **Live Link:** https://foodjunctionbikram.in
 
 ---
-*Created with ❤️ by Swatantraraj Singh*
+*Developed  by Swatantra Raj Kumar Singh*
