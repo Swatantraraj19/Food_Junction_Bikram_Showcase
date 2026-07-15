@@ -13,7 +13,7 @@ const Menu = ({ onOpenFullMenu }) => {
             <div className="absolute bottom-0 left-0 -mb-20 -ml-20 w-80 h-80 bg-brand-secondary/5 rounded-full blur-3xl pointer-events-none"></div>
 
             <div className="max-w-7xl mx-auto px-4 md:px-8 relative z-10">
-                <div className="text-center mb-12 md:mb-20">
+                <div className="text-center mb-11 md:mb-20">
                     <span className="text-brand-primary font-bold tracking-[0.3em] uppercase text-[10px] md:text-xs mb-3 block">Handpicked Specialties</span>
                     <h2 className="text-4xl md:text-6xl font-serif font-bold text-brand-dark mb-4 leading-tight">
                         Signature Dishes

@@ -25,7 +25,7 @@ const Footer = () => {
             <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-brand-primary/40 to-transparent"></div>
             
             <div className="max-w-7xl mx-auto px-6 pt-24 pb-12 relative z-10">
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-16 items-start mb-20">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-11 md:gap-16 items-start mb-20">
                     
                     {/* Column 1: Brand Identity */}
                     <div className="space-y-8 border-l-2 border-transparent pl-4">

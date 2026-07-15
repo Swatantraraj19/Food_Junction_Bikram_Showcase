@@ -40,7 +40,7 @@ const Contact = () => {
     ];
 
     return (
-        <section id="contact" className="pt-12 pb-24 md:pt-16 md:pb-32 bg-[#faf9f6] relative overflow-hidden scroll-mt-24">
+        <section id="contact" className="pt-12 pb-24 md:pt-15 md:pb-31 bg-[#faf9f6] relative overflow-hidden scroll-mt-24">
             {/* Background Decorative Element */}
             <div className="absolute top-0 right-0 w-[40%] h-full bg-brand-primary/5 -skew-x-12 transform translate-x-1/2 pointer-events-none z-0"></div>
             

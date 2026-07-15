@@ -126,7 +126,7 @@ const FullMenu = ({ isOpen, onClose }) => {
         >
             {/* Sticky Header Section */}
             <div className="flex-shrink-0 z-[210] bg-[#0c1117]/95 backdrop-blur-xl border-b border-white/5 px-4 md:px-12">
-                <div className="flex justify-between items-center h-[70px] md:h-[80px]">
+                <div className="flex justify-between items-center h-[70px] md:h-[81px]">
                     <div className="flex flex-col">
                         <h2 className="text-lg md:text-2xl font-serif font-bold text-white tracking-wide flex items-center gap-2 md:gap-3">
                             Food <span className="text-[#d4af37]">Menu</span>
