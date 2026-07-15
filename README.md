@@ -1,6 +1,6 @@
 # Food Junction Bikram - Premium PWA Showcase
 
-![Food Junction Banner](/public/Hero_bg.webp)
+![Food Junction Banner](/public/pwa-desktop.png)
 
 ## 🍱 Overview
 This repository contains a **Premium Restaurant PWA (Progressive Web App)** developed for **Food Junction Bikram**. This version is a **high-performance showcase port** designed to demonstrate technical expertise in modern web development, UI/UX design, and offline-capable applications.
@@ -9,7 +9,7 @@ The original application is a real-world restaurant ordering system. For privacy
 
 ---
 
-## 🚀 Key Features
+## 🚀  Key Features
 
 ### 💎 Premium UI/UX
 - **Cinematic Experience**: Implemented using `Framer Motion` for smooth, staggering entrance animations and gesture-based interactions.
@@ -29,7 +29,7 @@ The original application is a real-world restaurant ordering system. For privacy
 ---
 
 ## 🛠️ Tech Stack
-- **Frontend**: React 19, Vite 7
+- **Frontend**: React, Vite 7
 - **Styling**: Tailwind CSS
 - **Animations**: Framer Motion
 - **Icons**: Lucide React
@@ -75,5 +75,7 @@ In this public repository version:
 ## 👨‍💻 Developer Notes
 This project was built to show how modern web technologies can provide a fast, offline-first experience for local businesses. It focuses on **clean code architecture**, **performance scores**, and **immersive user delight**.
 
+**Live Link:** https://foodjunctionbikram.in
+
 ---
-*Created with ❤️ by Swatantraraj Singh*
+*Developed by Swatantra Raj Kumar Singh*
